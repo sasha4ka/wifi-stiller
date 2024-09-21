@@ -9,10 +9,10 @@ DOMAIN = "smtp.mail.ru"
 PORT = 465
 LOGIN = "gggg-gggg-97@internet.ru"
 PASSWORD = "8uk8eeykvdJBMkxFdQM1"
-if len(argv) > 1:
-    SEND_ADRESS = argv[1]
-else:
-    SEND_ADRESS = "sasha4ka99991@gmail.com"
+# if len(argv) > 1:
+    # SEND_ADRESS = argv[1]
+# else:
+SEND_ADRESS = "sasha4ka99991@gmail.com"
 
 letter = """\
 From: {0}
